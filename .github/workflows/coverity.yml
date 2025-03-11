@@ -2,7 +2,7 @@ name: Coverity Scan
 permissions: read-all
 on:
   push:
-    branches: [main]
+    branches: [master, main]
 jobs:
   coverity:
     runs-on: ubuntu-latest
